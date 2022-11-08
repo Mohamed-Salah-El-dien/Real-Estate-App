@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
+  background-image: url("../public/cover.jpg");
+  backdrop-filter: blur(2px);
+} */
+
+li {
+  width: 7rem;
+  height: 100%;
+  text-align: center;
+  transition: 0.1s ease;
+}
+
+li:hover {
+  border-bottom: 1px solid black;
+}
+
+.card {
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.9);
+  transition: 0.75s ease;
+}
+
+.card:hover {
+  box-shadow: 0rem 5rem 2rem rgba(0, 0, 0, 0.7);
+}
